@@ -9,6 +9,42 @@ a{
 li{
     list-style: none;
 }
+.btn{
+    transition: transform 0.4s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.btn-sqr{
+    transition: transform 0.4s;
+}
+.btn-sqr:hover{
+    transform: scale(1.1);
+}
+.btn-wht{
+    transition: transform 0.4s;
+}
+.btn-wht:hover{
+    transform: scale(1.1);
+}
+.i{
+    transition: transform 0.4s;
+}
+.i:hover{
+    transform: scale(1.1);
+}
+.card{
+    transition: transform 0.4s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    transition: transform 0.4s;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
 /* nav bar */
 .nav-container{
     background-color: rgba(59, 59, 59, 0.626);
@@ -266,4 +302,62 @@ font-size: 18px;
 }
 .blog-cards-container .card p{
     padding: 15px;
+}
+.footer-container{
+    background-image: url("../asset/image/footer-bg.png"),
+    linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 1));
+    background-blend-mode: overlay;
+    padding-top: 100px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 200px;
+    height: 30vh;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    /* gap: 30px; */
+    color: #fff;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid gray;
+}
+.footer-content h1{
+    font-size: 30px;
+   
+}
+.footer-content .logo{
+    padding-bottom: 10px;
+}
+.agency-part{
+    margin-right: 60px;
+}
+.footer-content h3{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.footer-content p{
+    padding-bottom: 20px;
+    line-height: 2;
+}
+.contact-info, .supports, .useful-links{
+ line-height: 2;
+}
+.contact-info i{
+    padding-right: 8px;
+}
+.socila-links i{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.copyright{
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+   color: #fff;
+    
 }
